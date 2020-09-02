@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px 100px 0px 0px;
+}
+
+#navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    width: 99.3%;
+    height: 80px;
+    border: 5px solid blue;
+    background-color: darkblue;
+}
+
+#navbar >a:nth-child(2) {
+    width: 20%;
+    background-color: aquamarine;
+}
+
+#navbar >a:nth-child(3) {
+    width: 20%;
+    background-color: greenyellow
+}
+
+#navbar >a:nth-child(4) {
+    width: 20%;
+    background-color: yellow;
+}
+
+#pharaoh-mask {
+    display: inline;
+    position: relative;
+    top: 100px;
+}
+
+#pharaoh-mask >img:nth-child(1){
+    width: 75%;
+}
+
+#nordic-helm {
+    display: inline;
+    position: relative;
+    top: 100px;
+
+}
+
+#nordic-helm >img:nth-child(1){
+    width: 75%;
+}
+
+#greek-sword {
+    display: inline;
+    position: relative;
+    top: 100px;
+}
+
+#greek-sword >img:nth-child(1){
+    width: 75%;
+}
+
+#lorem {
+    position: relative;
+    top: 100px;
+}
+
+@media only screen and (min-width: 768px){
+    #navbar {
+        display: flex;
+        position: fixed;
+        justify-content: space-evenly;
+        width: 99.3%;
+        height: 80px;
+        border: 5px solid blue;
+        background-color: darkblue;
+        z-index: 1;
+    }
+    
+    #navbar >a:nth-child(2) {
+        width: 25%;
+        background-color: aquamarine;
+    }
+    
+    #navbar >a:nth-child(3) {
+        width: 25%;
+        background-color: greenyellow
+    }
+    
+    #navbar >a:nth-child(4) {
+        width: 25%;
+        background-color: yellow;
+    }
+    
+    #lorem {
+        position: relative;
+        top: 100px;
+    }
+}

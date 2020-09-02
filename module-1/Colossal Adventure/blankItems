@@ -1,0 +1,25 @@
+const armor = {
+    evasion:0,
+    defense:0,
+    luck:0,
+    desc: ""
+}
+
+const weapon = {
+    accuracy:0,
+    damage:[0,0],
+    critical:0,
+    desc: ""
+}
+
+const enemy = {
+    health:0,
+    damage:[0,0],
+    defense:0,
+    accuracy:0,
+    evasion:0,
+    critical:0,
+    luck:0,
+    encounter: ""
+    reward: ""
+}

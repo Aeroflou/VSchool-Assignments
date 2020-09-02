@@ -1,0 +1,149 @@
+body {
+    background-color: grey;
+    margin: 0px;
+}
+
+.french-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.ff1 {
+    width: 60px;
+    height: 120px;
+    background-color: red;
+}
+.ff2 {
+    width: 60px;
+    height: 120px;
+    background-color:white;
+    left: 60px;
+}
+.ff3 {
+    width: 60px;
+    height: 120px;
+    background-color: green;
+    left: 120px;
+}
+.german-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.gf1 {
+    width: 180px;
+    height: 40px;
+    background-color: black;
+}
+.gf2 {
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    top: 40px;
+}
+.gf3 {
+    width: 180px;
+    height: 40px;
+    background-color: yellow;
+    top: 80px;
+}
+.madagascar-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.mf1 {
+
+}
+.mf2 {
+
+}
+.mf3 {
+
+}
+.switzerland-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.sf1 {
+
+}
+.sf2 {
+
+}
+.sf3 {
+
+}
+.swedish-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.swf1 {
+
+}
+.swf2 {
+
+}
+.swf3 {
+
+}
+.gambia-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.gaf1 {
+
+}
+.gaf2 {
+
+}
+.gaf3 {
+
+}
+.japanese-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.jf1 {
+
+}
+.jf2 {
+
+}
+.jf3 {
+
+}
+.niger-flag {
+    width: 180px;
+    height:120px;
+    background-color: black;
+    display: flex;
+    margin: 5px;
+}
+.nf1 {
+
+}
+.nf2 {
+
+}
+.nf3 {
+
+}

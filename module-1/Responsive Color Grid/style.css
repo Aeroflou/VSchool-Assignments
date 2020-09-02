@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box; 
+    font-size: 0px;
+}
+
+#box1 {
+    height: 200px;
+    background-color: #F5C6D6;
+    border: 5px solid white;
+}
+
+#box2{
+    height: 200px;
+    background-color: #EE2E84;
+    border: 5px solid white
+}
+
+#box3{
+    height: 200px;
+    background-color: #EE2E84;
+    border: 5px solid white
+}
+
+#box4{
+    height: 200px;
+    background-color: #EE2E84;
+    border: 5px solid white
+}
+
+#box5{
+    height: 200px;
+    background-color: #EE2E84;
+    border: 5px solid white
+}
+
+#box6{
+    height: 200px;
+    background-color: #85CFD8;
+    border: 5px solid white;
+}
+
+#box7{
+    height: 200px;
+    background-color: #85CFD8;
+    border: 5px solid white;
+}
+
+#box8{
+    height: 200px;
+    background-color: #8DC63F;
+    border: 5px solid white;
+}
+
+#box9{
+    height: 200px;
+    background-color: #E76E34;
+    border: 5px solid white;
+}
+
+@media only screen and (min-width: 768px){
+    #box1 {
+        height: 200px;
+        width: 100%;
+        background-color: #F5C6D6;
+        border: 5px solid white;
+    }
+    
+    #box2{
+        height: 200px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white
+    }
+    
+    #box3{
+        position: relative;
+        bottom: 200px;
+        left: 25%;
+        height: 200px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white
+    }
+    
+    #box4{
+        position: relative;
+        bottom: 400px;
+        left: 50%;
+        height: 200px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white
+    }
+    
+    #box5{
+        position: relative;
+        bottom: 600px;
+        left: 75%;
+        height: 200px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white
+    }
+    
+    #box6{
+        position: relative;
+        bottom: 600px;
+        height: 200px;
+        width: 50%;
+        background-color: #85CFD8;
+        border: 5px solid white;
+    }
+    
+    #box7{
+        position: relative;
+        bottom: 800px;
+        left: 50%;
+        height: 200px;
+        width: 50%;
+        background-color: #85CFD8;
+        border: 5px solid white;
+    }
+    
+    #box8{
+        position: relative;
+        bottom: 800px;
+        height: 200px;
+        width: 75%;
+        background-color: #8DC63F;
+        border: 5px solid white;
+    }
+    
+    #box9{
+        position: relative;
+        bottom: 1000px;
+        left: 75%;
+        height: 200px;
+        width: 25%;
+        background-color: #E76E34;
+        border: 5px solid white;
+    }
+}
