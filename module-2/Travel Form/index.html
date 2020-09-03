@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="header">Welcome To DESMOND Airlines</h1>
+        <div id="form">
+            <form name="airlineForm">
+                <p class="things">Name</p>
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name" required>
+                <br>
+                <p class="things">Age</p>
+                <input type="number" name="age" placeholder="Age" required>
+                <br>
+                <p class="things">Gender</p>
+                Male <input type="radio" name="gender" value="Male" required>
+                Female <input type="radio" name="gender" value="Female" required>
+                <br>
+                <p class="things">Destination</p>
+                <select name="destination" required>
+                    <option>America</option>
+                    <option>Japan</option>
+                    <option>Africa</option>
+                    <option>Bangledesh</option>
+                </select>
+                <br>
+                <p class="things">Dietary Prefrences</p>
+                Vegetaian <input type="checkbox" name="diet" value="Vegetaian">
+                <br>
+                Vegan <input type="checkbox" name="diet" value="Vegan">
+                <br>
+                Kosher <input type="checkbox" name="diet" value="Kosher">
+                <br>
+                <p></p>
+                <button>Submit</button>
+            </form>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
