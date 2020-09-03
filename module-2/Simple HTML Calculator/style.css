@@ -1,0 +1,31 @@
+body{
+    background-color: darkslategrey;
+}
+
+.input{
+    width: 30px;
+}
+
+#addition{
+    display: flex;
+    width: 500px;
+    background-color: dimgrey;
+    justify-content: center;
+    padding: 20px;
+}
+
+#subtraction{
+    display: flex;
+    width: 500px;
+    background-color: grey;
+    justify-content: center;
+    padding: 20px;
+}
+
+#multiplication{
+    display: flex;
+    width: 500px;
+    background-color: slategrey;
+    justify-content: center;
+    padding: 20px;
+}
