@@ -1,0 +1,88 @@
+body{
+    background-color: darkslategrey;
+}
+#djBoard{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border: 10px solid rebeccapurple;
+    transition: background-color 500ms, border 500ms ;
+}
+#box1:hover{
+    background-color: seagreen;
+    border-color: darkgreen;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 10px solid burlywood;
+    transition: background-color 500ms, border 500ms ;
+}
+#box2:hover{
+    background-color: burlywood;
+    border-color: beige;
+    border-width: 15px;
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: slategrey;
+    border: 10px solid grey;
+    transition: background-color 500ms, border 500ms, width 500ms, height 500ms;
+}
+#box3:hover{
+    background-color: darkgrey;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    border: 10px solid darkcyan;
+    transition: background-color 500ms, border 500ms, opacity 5s;
+}
+#box4:hover{
+    background-color: lightgreen;
+    border-color: seagreen;
+    opacity: 33%;
+}
+
+#box5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid darkred;
+    transition: background-color 500ms, border 500ms ;
+}
+#box5:hover{
+    background-color: pink;
+    border-color: darksalmon;
+    border-width: 5px;
+}
+
+#box6{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 10px solid darkorange;
+    transition: background-color 1s, border-width, width, height,border-color 1s;
+}
+#box6:hover{
+    background-color: darkorange;
+    border-color: whitesmoke;
+    border-width: 40px;
+    width: 40px;
+    height: 40px;
+}
