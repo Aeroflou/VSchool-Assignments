@@ -1,0 +1,47 @@
+{
+    "appetizers": [{
+        "name":"Ham Roll-Ups",
+        "ingredients":["Ham","Cream Cheese","Sliced Jalepenos"],
+        "description":"Cream cheese and jalepenos rolled up in sliced ham."
+    },{
+        "name":"Chips and Guac",
+        "ingredients":["Tortilla Chips","Avacado","Tomato","Lime Juice","Onions"],
+        "description":"Tortilla Chips with a side bowl of guacamole."
+    }],
+    "coldSandwiches": [{
+        "name":"Tuna Salad Sanwich",
+        "ingredients":["White Bread","Tuna","Walnuts","Mayo","Grapes","Onions"],
+        "description":"A Sandwich filled with delicious Tuna Salad."
+    },{
+        "name":"Cold Turkey",
+        "ingredients":["Weat Bread","Havarti Cheese","Turkey","Salami","Lettuce","Mustard"],
+        "description":"A Sandwich with turkey and salami, cold out of the fridge."
+    }],
+    "hotSandwiches": [{
+        "name":"Grilled Cuban",
+        "ingredients":["Toasted Rye Bread","Ham","Bacon","Swiss Cheese","Pickles","Mayo","Mustard"],
+        "description":"A panini pressed Cuban Sandwich filled with meat and cheese"
+    },{
+        "name":"TCBLT",
+        "ingredients":["White Bread","Turkey","Cheddar","Bacon","Lettuce","Tomato","Mayo"],
+        "description":"A panini pressed spin tried and true classic BLT"
+    }],
+    "desserts": [{
+        "name":"PeanutButter Brownie",
+        "ingredients":["Flour","Brown Sugar","Chocolate","Eggs","Vanilla Extract","Peanut Butter","Butter","Salt"],
+        "description":"Delicious brownie filled with peanut butter."
+    },{
+        "name":"Greg Cheesecake",
+        "ingredients":["1 3/4 Cups Honey Maid Graham Cracker Crumbs","1/3 Cup Butter, Melted","1 1/4 Cup Sugar, Divided","3 8oz. Packages Phildelphia Cream Cheese, Softened","1 Cup Breakstone's or Knudsen Sour Cream","2 Teaspoons Vanilla","3 Eggs","1 21oz. Can Cherry Pie Filling"],
+        "description":"Delicious Cheesecake"
+    }],
+    "drinks": [{
+        "name":"Apple Juice",
+        "ingredients":["Apples","Sugar","Honey","Water"],
+        "description":"Our original Apple Juice recipie."
+    },{
+        "name":"Black Coffee",
+        "ingredients":["Coffee Beans","Water"],
+        "description":"For when you just need that pick me up."
+    }]
+}
