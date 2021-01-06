@@ -2,33 +2,46 @@ body{
     background-color: #8ABC9F80;
     font-family: 'Libre Baskerville';
     font-size: 16px;
+    line-height: 32px;
     color: #325050;
     margin: 0px;
 }
 
 #head{
-    font-family: 'Libre Baskerville';
+    font-family: 'Julius Sans One';
     color: white;
+    font-size: 55px;
 }
-#headunder{
-    font-family: 'Fancy Libre Baskerville';
-    color: grey;
+.underHead{
+    font-family: 'Italic Libre Baskerville';
+    font-size: 25px;
+    color: #FFFFFF99;
 }
 #enso{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
-
 #page{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 280px repeat(3,1fr) 280px 180px;
 }
-
+#viewText{
+    color: white;
+    font-family: 'Julius Sans One';
+    text-align: center;
+    font-size: 30px;
+}
+.arrow{
+    color: white;
+    font-family: 'Verde Moderna';
+    font-size: 30px;
+}
 #otherCreations{
     grid-row: 2/3;
     grid-column: 2/3;
     background-color: #C0CAC3;
+    line-height: 8px;
     padding: 16px 50px 16px 50px;
 }
 #header{
@@ -37,42 +50,50 @@ body{
     background: #2d6360 50%;
     background-image: url("contours.png"),url("gridlines.png"), url("huntington.jpg");
     background-repeat: repeat, repeat, no-repeat;
+    padding: 50px 0px 0px 150px;
 }
 #aboutWebsite{
     grid-row: 2/3;
     grid-column: 1/2;
     background-color: whitesmoke;
-    padding: 16px 50px 16px 50px;
+    padding: 50px 72px 50px 144px;
 }
 #viewAll{
     grid-row: 1/2;
-    grid-template-columns: 2/3;
+    grid-column: 2/3;
+    z-index: 2;
     background: #8ABC9F80 50%;
-    padding: 16px 50px 16px 50px;
+    padding: 25% 50px 16px 50px;
+    text-align: center;
 }
 #resourceFAQ{
     grid-row: 3/4;
     grid-column: 2/3;
     background: url("contours-opaque.png"),url("bamboo.png") #8ABC9F80 50%;
-    padding: 16px 50px 16px 50px;
+    color: #607476;
+    font-family: 'Julius Sans One';
+    padding: 50% 50px 16px 50px;    
+    line-height: 64px;
+    list-style-type: none;
 }
 #participationInfo{
     grid-row: 3/4;
     grid-column: 1/2;
     background-image: url("contours-opaque.png"),url("bamboo.png");
-    padding: 16px 50px 16px 50px;
+    padding: 50px 72px 50px 144px;
 }
 #requirements{
     grid-row: 4/5;
     grid-column: 1/2;
-    padding: 16px 50px 16px 50px;
+    padding: 50px 72px 50px 144px;
     background-color: whitesmoke;
 }
 #credits{
     grid-row: 5/6;
     grid-column: 1/3;
     background-image: url("contours.png"),url("gridlines.png"),url("koi.jpg");
-    padding: 16px 50px 16px 50px;
+    padding: 100px 180px 100px 180px;
+    text-align: center;
 }
 #theOneEmptySpaceYeahThatOneTheresProbablyABetterWayToDoThisButEh{
     grid-row: 4/5;
@@ -80,13 +101,40 @@ body{
     background-color: #C0CAC3;
 }
 #validityLiscence{
-    display: flexbox;
+    padding: 75px 180px;
     background-color: #134347;
-    align-content: center;
+    color: #fff;
+    text-align: center;
     grid-row: 6/7;
     grid-column: 1/3;
 }
 
+.resFAQ{
+    font-family: 'Julius Sans One';
+    font-size: 20px;
+}
+.fancyBY{
+    font-family: 'Italic Libre Baskerville';
+    font-size: 14px;
+}
+.name{
+    font-size: 14px;
+    color: #616857;
+}
+.libre{
+    font-family: 'Libre Baskerville';
+    color: #FFFFFFB3;
+    font-size: 32px;
+}
+.fancy{
+    font-family: 'Italic Libre Baskerville';
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 32px;
+}
+.designTitles{
+    font-family: 'Julius Sans One';
+    font-size: 20px;
+}
 .tinyIcon{
     font-family: 'Verde Moderna';
     font-size: 20px;
@@ -117,6 +165,63 @@ font-family: Verde Moderna;
 src: url("verdemoderna.woff")
 }
 @font-face{
-font-family: Fancy Libre Baskerville;
+font-family: Italic Libre Baskerville;
 src: url("fancylibrebaskerville.woff2")
+}
+@media only screen and (max-width: 1132px){
+    #page{
+        grid-template-rows: auto ;
+    }
+    #header{
+        grid-row: 1/3;
+        grid-column: 1/3;
+        text-align: center;
+        height: 350px;
+        padding: 0px 0px 0px 0px;
+    }
+    #viewAll{
+        grid-row: 2/3;
+        grid-column: 1/3;
+        height: 80px;
+        padding: 20px 0px 0px 0px;
+    }
+    #aboutWebsite{
+        grid-row: 3/4;
+        grid-column: 1/3;
+        padding: 100px 100px 100px 100px;
+    }
+    #participationInfo{
+        grid-row: 4/5;
+        grid-column: 1/3;
+        padding: 100px 100px 100px 100px;
+    }
+    #requirements{
+        grid-row: 5/6;
+        grid-column: 1/3;
+        z-index: 2;
+        padding: 100px 100px 100px 100px;
+    }
+    #theOneEmptySpaceYeahThatOneTheresProbablyABetterWayToDoThisButEh{
+        grid-row: 5/6;
+        grid-column: 1/3;
+    }
+    #credits{
+        grid-row: 6/8;
+        grid-column: 1/3;
+        padding: 100px 100px 100px 100px;
+    }
+    #validityLiscense{
+        grid-row: 8/9;
+        grid-column: 1/3;
+    }
+    #otherCreations{
+        grid-row: 9/10;
+        grid-column: 1/3;
+        padding: 0px 0px 0px 0px;
+    }
+    #resourceFAQ{
+        grid-row: 10/11;
+        grid-column: 1/3;
+        padding: 0px 0px 0px 0px;
+    }
 }
