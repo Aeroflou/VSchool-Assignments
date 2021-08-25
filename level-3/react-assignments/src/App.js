@@ -11,7 +11,7 @@ import HitList from "./hit-list/HitList"
 
 function App(){
     return (<div>
-        <HitList />
+        <DjReact />
     </div>)
 }
 

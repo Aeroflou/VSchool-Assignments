@@ -1,0 +1,53 @@
+body {
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: 5px;
+}
+
+form {
+    border: 2px solid gray;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.bounty {
+    background-color: burlywood;
+    border: 2px solid slategrey;
+    padding: 5px;
+    border-top-right-radius: 32px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.addBtn {
+    background-color: greenyellow;
+    color: white;
+}
+
+.delBtn {
+    background-color: firebrick;
+    color: white;
+}
+
+.editBtn {
+    background-color: cornflowerblue;
+    color: white;
+}

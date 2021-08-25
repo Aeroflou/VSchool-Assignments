@@ -1,0 +1,13 @@
+header {
+    position: absolute;
+    top: 0;
+    background-color: #333333;
+    height: 3%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: aquamarine;
+    }
+}
