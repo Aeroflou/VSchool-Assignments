@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    margin-top: 50px;
+    background-color: #383838;
+}
+nav {
+    position: fixed;
+    top: 0px;
+    background-color: 	#202020;
+    width: 100%;
+    padding: 0px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rebeccapurple;
+}
+
+.creature {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+.creatureIntro {
+    padding: 10px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    color: black;
+}
+.creatureDesc {
+    padding: 10px;
+    grid-row: 2/2;
+    grid-template-columns: 1/2;
+    border: 2px solid gray;
+    border-radius: 3px;
+    background-color: darkgray;
+    color: black;
+}
+.dangerTrue {
+    padding: 10px;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    border: 2px solid red;
+    border-radius: 3px;
+    background-color: firebrick;
+}
+.dangerFalse {
+    padding: 10px;
+    grid-row: 2/2;
+    grid-column: 2/2;
+    border: 2px solid darkgreen;
+    border-radius: 3px;
+    background-color: limegreen;
+}

@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    margin-top: 50px;
+    background-color: slategray;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rebeccapurple;
+}
+
+.app {
+    background-color: #eee9;
+}
+  
+.auth-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.auth-container > h1 {
+    font-size: 2em;
+    margin: 24px;
+}
+  
+.auth-container > p {
+    margin: 16px;
+    text-decoration: underline;
+}
+  
+.auth-container > form {
+    border: 1px solid #3339;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #aaa9;
+  
+    display: flex;
+    flex-direction: column;
+}
+  
+.auth-container > form > input {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+  
+.auth-container > form > button {
+    margin: 16px 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.comments-list {
+    border: 1px solid slategray;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.comment {
+    border-bottom: 1px solid blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.issue-list {
+    margin: 16px 0;
+    border: 1px solid #3339;
+    background-color: #aaa9;
+    padding: 16px;
+    border-radius: 5px
+}
+  
+.issue {
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    background-color: darkslategray;
+    padding: 10px;
+}
+  
+.public {
+    height: 100vh;
+}
+  
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+  
+.profile > h1 {
+    margin: 8px;
+    font-size: 2em;
+    text-align: center;
+}
+  
+.profile > h3 {
+    margin: 16px 0;
+    text-decoration: underline;
+}
+  
+.profile > form {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    border: 1px solid #3339;
+    background-color: #aaa9;
+    padding: 16px;
+    border-radius: 5px
+}
+  
+.profile > form > input,
+.profile > form > button {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 5px
+} 

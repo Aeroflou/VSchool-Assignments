@@ -10,7 +10,10 @@ function App() {
 
   const getBounties = () => {
     axios.get("/bounties")
-      .then(res => setBounties(res.data))
+      .then(res => {
+        console.log(res.data)
+        setBounties(res.data)
+      })
       .catch(err => console.log(err))
   }
 
@@ -18,7 +21,6 @@ function App() {
     axios.post("/bounties", newBounty)
       .then(res => {
         const tempBount = res.body
-        tempBount._id = `tempId${bounties.length}`
         setBounties(prevBounties => [...prevBounties, tempBount])
       })
       .catch(err => console.log(err))
@@ -38,7 +40,7 @@ function App() {
 
   useEffect(() => {
     getBounties()
-  }, [])
+  }, [bounties])
 
   return (
     <div>
